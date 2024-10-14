@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+}
+@media (max-width: 800px) {
+    body {
+        font-size: 1em;
+    }
+}
