@@ -8,30 +8,41 @@ namespace BooksReservationAPI.Controllers;
 [ApiController]
 public class BooksController(IBookService bookService) : ControllerBase
 {
-    private readonly IBookService _bookService = bookService;
-
     [HttpGet]
     public async Task<IActionResult> GetBooks([FromQuery] string? name = null, [FromQuery] int? year = null, [FromQuery] BookType? type = null)
     {
-        var books = await _bookService.GetAllBooksAsync(name, year, type);
-        if (books == null)
+        try
         {
-            return NotFound();
+            var books = await bookService.GetAllBooksAsync(name, year, type);
+            if (books == null)
+            {
+                return NotFound();
+            }
+            return Ok(books);
         }
-
-        return Ok(books);
+        catch (Exception ex)
+        {
+            return StatusCode(500, "An error occurred while fetching reservations.");
+        }
     }
 
     [HttpGet("{id}")]
     public async Task<IActionResult> GetBookById(int id)
     {
-        var book = await _bookService.GetBookByIdAsync(id);
-
-        if (book == null)
+        try
         {
-            return NotFound();
-        }
+            var book = await bookService.GetBookByIdAsync(id);
 
-        return Ok(book);
+            if (book == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(book);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, "An error occurred while fetching reservations.");
+        }
     }
 }

@@ -8,14 +8,12 @@ namespace BooksReservationAPI.Controllers;
 [ApiController]
 public class ReservationsController(IReservationService reservationService) : ControllerBase
 {
-    private readonly IReservationService _reservationService = reservationService;
-
     [HttpGet]
     public async Task<ActionResult<IEnumerable<ReservationDTO>>> GetAllReservations()
     {
         try
         {
-            var reservations = await _reservationService.GetAllReservationsAsync();
+            var reservations = await reservationService.GetAllReservationsAsync();
             return Ok(reservations);
         }
         catch (Exception ex)
@@ -29,7 +27,7 @@ public class ReservationsController(IReservationService reservationService) : Co
     {
         try
         {
-            var reservation = await _reservationService.GetReservationByIdAsync(id);
+            var reservation = await reservationService.GetReservationByIdAsync(id);
             if (reservation == null)
             {
                 return NotFound();
@@ -53,7 +51,7 @@ public class ReservationsController(IReservationService reservationService) : Co
 
         try
         {
-            var createdReservation = await _reservationService.AddReservationAsync(reservationDTO);
+            var createdReservation = await reservationService.AddReservationAsync(reservationDTO);
             return CreatedAtAction(nameof(GetReservationById), new { id = createdReservation.Id }, createdReservation);
         }
         catch (Exception ex)
@@ -67,7 +65,7 @@ public class ReservationsController(IReservationService reservationService) : Co
     {
         try
         {
-            var success = await _reservationService.DeleteReservationAsync(id);
+            var success = await reservationService.DeleteReservationAsync(id);
             if (!success)
             {
                 return NotFound();
