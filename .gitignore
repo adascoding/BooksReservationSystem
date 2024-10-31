@@ -1,0 +1,15 @@
+# Ignore .NET build files
+bin/
+obj/
+*.dll
+*.exe
+
+# Ignore React build files
+node_modules/
+build/
+*.log
+
+# Ignore system files
+.DS_Store
+*.tmp
+*.bak

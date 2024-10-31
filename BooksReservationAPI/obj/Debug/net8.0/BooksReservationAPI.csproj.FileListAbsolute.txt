@@ -1,10 +1,3 @@
-C:\Users\Adas\OneDrive\Projects\BooksReservationSystem\BooksReservationAPI\obj\Debug\net8.0\BooksReservationAPI.csproj.AssemblyReference.cache
-C:\Users\Adas\OneDrive\Projects\BooksReservationSystem\BooksReservationAPI\obj\Debug\net8.0\BooksReservationAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Adas\OneDrive\Projects\BooksReservationSystem\BooksReservationAPI\obj\Debug\net8.0\BooksReservationAPI.AssemblyInfoInputs.cache
-C:\Users\Adas\OneDrive\Projects\BooksReservationSystem\BooksReservationAPI\obj\Debug\net8.0\BooksReservationAPI.AssemblyInfo.cs
-C:\Users\Adas\OneDrive\Projects\BooksReservationSystem\BooksReservationAPI\obj\Debug\net8.0\BooksReservationAPI.csproj.CoreCompileInputs.cache
-C:\Users\Adas\OneDrive\Projects\BooksReservationSystem\BooksReservationAPI\obj\Debug\net8.0\BooksReservationAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Adas\OneDrive\Projects\BooksReservationSystem\BooksReservationAPI\obj\Debug\net8.0\BooksReservationAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Adas\OneDrive\Projects\BooksReservationSystem\BooksReservationAPI\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Adas\OneDrive\Projects\BooksReservationSystem\BooksReservationAPI\bin\Debug\net8.0\appsettings.json
 C:\Users\Adas\OneDrive\Projects\BooksReservationSystem\BooksReservationAPI\bin\Debug\net8.0\BooksReservationAPI.staticwebassets.endpoints.json
@@ -27,6 +20,14 @@ C:\Users\Adas\OneDrive\Projects\BooksReservationSystem\BooksReservationAPI\bin\D
 C:\Users\Adas\OneDrive\Projects\BooksReservationSystem\BooksReservationAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Adas\OneDrive\Projects\BooksReservationSystem\BooksReservationAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Adas\OneDrive\Projects\BooksReservationSystem\BooksReservationAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Adas\OneDrive\Projects\BooksReservationSystem\BooksReservationAPI\obj\Debug\net8.0\BooksReservationAPI.csproj.AssemblyReference.cache
+C:\Users\Adas\OneDrive\Projects\BooksReservationSystem\BooksReservationAPI\obj\Debug\net8.0\BooksReservationAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adas\OneDrive\Projects\BooksReservationSystem\BooksReservationAPI\obj\Debug\net8.0\BooksReservationAPI.AssemblyInfoInputs.cache
+C:\Users\Adas\OneDrive\Projects\BooksReservationSystem\BooksReservationAPI\obj\Debug\net8.0\BooksReservationAPI.AssemblyInfo.cs
+C:\Users\Adas\OneDrive\Projects\BooksReservationSystem\BooksReservationAPI\obj\Debug\net8.0\BooksReservationAPI.csproj.CoreCompileInputs.cache
+C:\Users\Adas\OneDrive\Projects\BooksReservationSystem\BooksReservationAPI\obj\Debug\net8.0\BooksReservationAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Adas\OneDrive\Projects\BooksReservationSystem\BooksReservationAPI\obj\Debug\net8.0\BooksReservationAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Adas\OneDrive\Projects\BooksReservationSystem\BooksReservationAPI\obj\Debug\net8.0\BooksReservationAPI.sourcelink.json
 C:\Users\Adas\OneDrive\Projects\BooksReservationSystem\BooksReservationAPI\obj\Debug\net8.0\scopedcss\bundle\BooksReservationAPI.styles.css
 C:\Users\Adas\OneDrive\Projects\BooksReservationSystem\BooksReservationAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Adas\OneDrive\Projects\BooksReservationSystem\BooksReservationAPI\obj\Debug\net8.0\staticwebassets.development.json
